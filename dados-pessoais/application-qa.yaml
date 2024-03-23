@@ -1,0 +1,6 @@
+instance:
+  hostname: host.docker.internal
+  ip-address: "*"
+  client:
+    service-url:
+      defaultZone: http://host.docker.internal:8761/registry/eureka
