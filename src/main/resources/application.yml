@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/Luiz10/config-server
           default-label: main
           search-paths:
             - 'reserva*'
