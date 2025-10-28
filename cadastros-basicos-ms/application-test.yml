@@ -15,7 +15,7 @@ spring:
       - classpath:db/migration
   jpa:
     hibernate:
-      ddl-auto: update              # can be 'create', 'create-drop', 'validate', or 'none'
+      ddl-auto: create              # can be 'create', 'create-drop', 'validate', or 'none'
     show-sql: true
     properties:
       hibernate:
