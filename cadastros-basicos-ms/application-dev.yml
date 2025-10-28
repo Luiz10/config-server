@@ -1,10 +1,11 @@
-flyway:
+spring:
+  flyway:
   enabled: true
   baseline-on-migrate: true
   locations:
     - classpath:db/migration
-datasource:
-  username: user
-  password: password
-  driver-class-name: org.postgresql.Driver
-  url: jdbc:postgresql://localhost:5432/db_cadastro_basico
+  datasource:
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/db_cadastro_basico
